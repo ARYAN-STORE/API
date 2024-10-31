@@ -6,9 +6,9 @@
 /*
 <p> Eka Danuarta</p>
 <p> Ojan</p>
-<p> Farhan</p>
-<p> ZeeoneOfc </p>
-<p> ALL HUMAN</p>
+<p> ArYan</p>
+<p> ArYan </p>
+<p> ADRIYAN</p>
 */
 __path = process.cwd()
 
@@ -34,8 +34,8 @@ var cheerio = require('cheerio');
 var request = require('request');
 var fs = require('fs');
 var router  = express.Router();
-var creator = 'ZeeoneOfc' // ubah jadi nama lu
-const listkey = ["Alphabot","Zeeone","ZeeoneOfc"]; // ubah apikey nya, tambah aja klo mau
+var creator = 'ArYan' // ubah jadi nama lu
+const listkey = ["ArYan","Zeeone","ZeeoneOfc"]; // ubah apikey nya, tambah aja klo mau
 
 var { otakudesu, covid, ongoing, komiku, tebakgambar, surah, sholat, lirik, chara,wattpad, playstore, linkwa, pinterest ,igdl,igstory, igstalk,twitter,fbdown,youtube,ttdownloader} = require(__path + '/lib/scrape.js');
 var { color, bgcolor } = require(__path + '/lib/color.js');
